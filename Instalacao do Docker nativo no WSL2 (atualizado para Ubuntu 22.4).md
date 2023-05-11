@@ -56,10 +56,10 @@ Isso deve mostrar seus serviços Systemd.
     sudo update-alternatives --config iptables
     
 
-#### =============================================================================================
-#### 3 Corrigindo o problema: Erro “Permissão negada ao tentar se conectar ao Docker Daemon Socket
-#### Orriginal:  https://www.baeldung.com/linux/docker-permission-denied-daemon-socket-error#
-#### =============================================================================================
+###### =============================================================================================
+###### 3 Corrigindo o problema: Erro “Permissão negada ao tentar se conectar ao Docker Daemon Socket
+###### Orriginal:  https://www.baeldung.com/linux/docker-permission-denied-daemon-socket-error#
+###### =============================================================================================
 
 1- Elevar os privilegios
 
