@@ -1,2 +1,2 @@
 # wsl2
-Scripts e documentos de configuração para wls2
+Scripts e documentos diversos para a configuração do wls2 com dockers

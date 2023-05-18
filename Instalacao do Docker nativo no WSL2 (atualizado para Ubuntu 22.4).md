@@ -1,17 +1,12 @@
 
-##### =============================================================================================
-##### Original:  https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop
-##### =============================================================================================
-##### ATENÇÃO! ESTA INTALACAO ASSUME O O LINUX NO WSL2 ESTEJA RODANDO EM MODO PID1
-##### A VERSAO DO UBUNTU 22.04 JÁ VEM COM P PID1 ATIVADO
-##### =============================================================================================
+###### =============================================================================================
+###### ATENÇÃO! ESTA INTALACAO ASSUME O O LINUX NO WSL2 ESTEJA RODANDO EM MODO PID1
+###### A VERSAO DO UBUNTU 22.04 JÁ VEM COM P PID1 ATIVADO
+###### Original:  https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop
+###### =============================================================================================
 
 
-
-
-##### ===================================================================================================
 ##### 1- Ativando o Ubuntu como PID1 no Wls2 tornado a execução do sistema no WLS2 mais próxima do nativo
-##### ===================================================================================================
 
 Edite o arquivo wsl.conf:
 ```
@@ -34,10 +29,7 @@ Isso deve mostrar seus serviços Systemd.
 
 
 
-#### ===================================================================================================
 #### 2- Instalalando o Dockers
-#### ===================================================================================================
-
 
 
 #### Install Docker, you can ignore the warning from Docker about using WSL
@@ -64,10 +56,10 @@ Isso deve mostrar seus serviços Systemd.
     sudo update-alternatives --config iptables
     
 
-#### =============================================================================================
-#### 3 Corrigindo o problema: Erro “Permissão negada ao tentar se conectar ao Docker Daemon Socket
-#### Orriginal:  https://www.baeldung.com/linux/docker-permission-denied-daemon-socket-error#
-#### =============================================================================================
+###### =============================================================================================
+###### 3 Corrigindo o problema: Erro “Permissão negada ao tentar se conectar ao Docker Daemon Socket
+###### Orriginal:  https://www.baeldung.com/linux/docker-permission-denied-daemon-socket-error#
+###### =============================================================================================
 
 1- Elevar os privilegios
 
